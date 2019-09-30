@@ -1,0 +1,17 @@
+PHAM
+
+Exercice 1
+
+8. Le class path est le chemin d'un dossier ou d'un fichier.
+
+Exercice 2
+
+1. Un message d'erreur s'affiche et le fichier n'est pas exécuté. 
+
+Exercice 3
+
+3. La commande écrit directement la ligne de code "System.out.println();".
+4. La commande écrit directement la méthode String toString().
+5. La commande écrit directement la fonction main(String[] args).
+6. Les commandes écrivent directement le getter & setter de la variable toto.
+
