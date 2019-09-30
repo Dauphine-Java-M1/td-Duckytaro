@@ -1,5 +1,6 @@
-PHAM
+PHAM Duc-Chinh
 
+TD 0
 Exercice 1
 
 8. Le class path est le chemin d'un dossier ou d'un fichier.
@@ -14,4 +15,20 @@ Exercice 3
 4. La commande écrit directement la méthode String toString().
 5. La commande écrit directement la fonction main(String[] args).
 6. Les commandes écrivent directement le getter & setter de la variable toto.
+
+TD0 (Git)
+Exercice 1
+
+2. Par exemple, les fichiers .class de td00/target/classes ne font pas partie des sources du projet.
+5. La commande "git diff" affiche les changements effectués entre le fichier soumis dans le git et le fichier actuel.
+8. Le hash de mon premier commit est: 538944c1d350114ca3738897668786e2588b8dc4
+
+Exercice 2
+
+3. Les 2 dépôts syncrhonisés sont représentés par "master - remotes/origin/master".
+4 & 5. "Everything is up-to-date"
+6. Selon gitk, la modification à la fin du fichier n'a pas été prise en compte. Il est toutefois présent lorsque j'ouvre le fichier.
+
+Exercice 3
+2. La méthode assertTrue(boolean) impose le résultat d'un test (true si le test est réussi, false si non).
 

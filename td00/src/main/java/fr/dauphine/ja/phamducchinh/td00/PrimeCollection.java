@@ -21,6 +21,12 @@ public class PrimeCollection
 		return numbers.size();
 	}
 	
+	public void addNumber(int n)
+	{
+		numbers.add(n);
+		return;
+	}
+	
 	public int getNumber(int i)
 	{
 		return numbers.get(i);
@@ -35,8 +41,9 @@ public class PrimeCollection
 		return;
 	}
 	
-	private boolean isPrime(int p)
+	public boolean isPrime(int p)
 	{
+		if(p <= 1) return false;
 		for(int i = 2; i < Math.sqrt((double) p); i++)
 		{
 			if(p % i == 0) return false;
