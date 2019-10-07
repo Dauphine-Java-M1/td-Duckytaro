@@ -32,3 +32,22 @@ Exercice 2
 Exercice 3
 2. La méthode assertTrue(boolean) impose le résultat d'un test (true si le test est réussi, false si non).
 
+TD1
+Exercice 1
+
+1. Cela fonctionne car la fonction main est dans la classe Point, elle a donc accès aux variables privées.
+2. La fonction n'a pas accès aux variables privées car elle est dans une classe différente. Pour y accéder, il faudrait ajouter des getters/accesseurs.
+3. Les variables doivent être privées pour éviter que tous les utilisateurs y aient accès et puissent les modifier librement.
+4. Un accesseur est une méthode publique qui renvoie la valeur d'une variable privée.
+5. Le constructeur Point(px, py) a remplacé le constructeur par défaut, ce dernier n'est donc plus disponible.
+6. Si on modifie les paramètres du constructeur en x et y, il y a ambiguité avec les variables privées portant le même nom.
+7. On peut ajouter la constante "private static int compteur", l'initialiser à 0 et l'incrémenter à chaque initialisation d'un point.
+8. Le constructeur est choisi en fonction du paramètre (s'il s'agit de 2 entiers ou d'1 objet Point).
+
+Exercice 2
+1. La condition compare les 2 objets, non pas si les coordonnées correspondent.
+
+Exerice 3
+2. Ici, le n+1ème point ne sera pas ajouté dans le tableau. On peut afficher un message d'erreur quand la taille limite a été atteinte.
+5. Un NullPointerException est rencontré (car la méthode isSameAs(p) de la classe Point ne vérifie pas si le point est null ou non).
+6. Si on change le tableau par un LinkedList, les méthodes pointCapacity, nbPoints et contains deviennent obsolètes. La méthode add le devient aussi.
