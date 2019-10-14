@@ -51,3 +51,11 @@ Exerice 3
 2. Ici, le n+1ème point ne sera pas ajouté dans le tableau. On peut afficher un message d'erreur quand la taille limite a été atteinte.
 5. Un NullPointerException est rencontré (car la méthode isSameAs(p) de la classe Point ne vérifie pas si le point est null ou non).
 6. Si on change le tableau par un LinkedList, les méthodes pointCapacity, nbPoints et contains deviennent obsolètes. La méthode add le devient aussi.
+
+Exercice 4
+5. Les cercles c et c2 ont le même objet Point, il faut donc créer un autre objet Point avec les mêmes coordonnées pour c2.
+9. Il est plus cohérent d'en faire une méthode statique.
+
+Exercice 5
+1. Il est intéressant de faire de l'héritage pour la classe Ring, cependant de nombreuses méthodes seront à modifier pour les rendre compatibles avec l'anneau.
+4. La méthode n'affichera pas le rayon interne.
