@@ -19,6 +19,16 @@ public class Point
     	y = p.y;
     }
     
+    public int getX()
+    {
+    	return x;
+    }
+    
+    public int getY()
+    {
+    	return y;
+    }
+    
     @Override
     public String toString()
     {
@@ -29,5 +39,12 @@ public class Point
     {
     	if(Objects.requireNonNull(p) != null) return p.x == x && p.y == y;
     	return false;
+    }
+    
+    public void translate(int dx, int dy)
+    {
+    	x += dx;
+    	y += dy;
+    	return;
     }
 }
